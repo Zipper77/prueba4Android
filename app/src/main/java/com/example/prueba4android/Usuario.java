@@ -1,9 +1,7 @@
 package com.example.prueba4android;
 
 public class Usuario {
-    private String id;
-    private String username;
-    private String contraseña;
+    private String id, username, contraseña;
 
     public Usuario() {
     }

@@ -1,12 +1,7 @@
 package com.example.prueba4android;
 
 public class Pokémon {
-    private String id;
-    private String nombre;
-    private String ataque;
-    private String vida;
-    private String defensa;
-    private String dueño;
+    private String id, nombre, ataque, vida, defensa, dueño;
 
     public Pokémon() {
     }
@@ -70,6 +65,6 @@ public class Pokémon {
 
     @Override
     public String toString() {
-        return "Pokémon : "+nombre+"                                    Ataque :"+ataque+"      Vida : "+vida+"     Defensa : "+defensa;
+        return "Pokémon : "+nombre+"                                        Ataque :"+ataque+"      Vida : "+vida+"     Defensa : "+defensa;
     }
 }

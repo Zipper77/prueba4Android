@@ -20,6 +20,8 @@
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
                 android:text="Registro de Pokémon"
                 android:textAlignment="center"
                 android:textSize="36sp" />
@@ -46,7 +48,8 @@
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
                 android:text="- Stats -"
                 android:textAlignment="center"
                 android:textSize="30sp" />
@@ -62,7 +65,7 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="20dp"
                     android:text="Ataque :"
-                    android:textSize="24sp" />
+                    android:textSize="30sp" />
 
                 <RadioGroup
                     android:id="@+id/ataque"
@@ -102,7 +105,7 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="20dp"
                     android:text="Vida :"
-                    android:textSize="24sp" />
+                    android:textSize="30sp" />
 
                 <RadioGroup
                     android:id="@+id/vida"
@@ -141,7 +144,7 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="20dp"
                     android:text="Defensa :"
-                    android:textSize="24sp" />
+                    android:textSize="30sp" />
 
                 <RadioGroup
                     android:id="@+id/defensa"

@@ -11,7 +11,7 @@
         android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="10dp"
+        android:paddingTop="20dp"
         android:paddingBottom="20dp"
         android:text="Inicio de Sesión"
         android:textAlignment="center"
@@ -40,6 +40,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingLeft="20dp"
+        android:paddingTop="20dp"
         android:text="Ingrese contraseña :"
         android:textSize="30sp" />
 

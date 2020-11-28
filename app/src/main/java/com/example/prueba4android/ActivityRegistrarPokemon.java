@@ -34,6 +34,7 @@ public class ActivityRegistrarPokemon extends AppCompatActivity {
     DatabaseReference referenciaBD;
 
     String dueño;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
